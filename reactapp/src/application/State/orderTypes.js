@@ -1,0 +1,4 @@
+export const ORDER_PROCESSING = "PROCESSING";
+export const ORDER_SHIPPED = "SHIPPED";
+export const ORDER_COMPLETED = "COMPLETED";
+export const ORDER_CANCELED = "CANCELED";

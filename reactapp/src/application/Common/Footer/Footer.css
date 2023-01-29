@@ -1,0 +1,24 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: rgb(177, 204, 228);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(36, 188, 77);
+}
+
+.hidden_footer {
+  height: 55px;
+}

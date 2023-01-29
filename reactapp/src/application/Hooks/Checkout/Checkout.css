@@ -1,0 +1,35 @@
+.checkout_main {
+  display: flex;
+}
+
+.checkout_details {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  /* width: 100%; */
+}
+
+.form-group {
+  width: 100%;
+  margin: 5px;
+}
+
+.form-group input {
+  width: 100%;
+
+  background-color: rgb(228, 244, 228);
+}
+
+.checkout-qrCode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.inCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,8 @@
+.product_main {
+  display: flex;
+}
+
+.product_form_detail {
+  flex-grow: 1;
+  background-color: rgba(168, 201, 228, 0.244);
+}

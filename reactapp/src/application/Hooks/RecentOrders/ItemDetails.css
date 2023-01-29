@@ -1,0 +1,24 @@
+.items_main {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 500px;
+  border-bottom: 1px solid grey;
+  background-color: aliceblue;
+}
+.item_quantity {
+  font-size: 13px;
+  color: yellow;
+}
+.item_image img {
+  margin-top: 4px;
+}
+
+.item_detail {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 25px;
+  width: 100%;
+}

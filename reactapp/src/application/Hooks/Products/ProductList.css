@@ -1,0 +1,37 @@
+.productlist_container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.productlist_main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  height: 80%;
+}
+
+.productlist_item {
+  height: 370px;
+  width: 300px;
+  margin: 5px;
+}
+
+.product_options {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: aliceblue;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 70px;
+  border-right: 0.5px solid rgb(198, 196, 196);
+}
+.hidden_sidebar {
+  min-width: 250px;
+  width: 250px;
+  z-index: +1;
+}

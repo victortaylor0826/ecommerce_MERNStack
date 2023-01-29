@@ -1,0 +1,43 @@
+.order_container {
+  width: 100%;
+}
+
+.order_details {
+  font-size: small;
+  display: flex;
+  justify-content: space-around;
+}
+
+.order_holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.order_main {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-bottom: 0.5px solid grey;
+}
+
+.order_options {
+  display: flex;
+  flex-direction: column;
+}
+
+.order_items {
+  padding: 2px;
+  font-weight: bold;
+}
+
+.cancel_btn {
+  background-color: orange;
+}
+
+.reOrder_btn {
+  background-color: green;
+}
+
+.option_btn_holder {
+  width: 350px;
+}

@@ -1,0 +1,134 @@
+.hidden_header {
+  visibility: hidden;
+  height: 70px;
+  position: relative;
+  top: -240px;
+}
+.header_main {
+  background-color: rgb(177, 204, 228);
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: +3;
+}
+
+.header_links {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.header_userBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.navlink_button {
+  text-decoration: none;
+  margin: 5px;
+  color: black;
+  padding: 5px;
+  width: 65px;
+  text-align: center;
+}
+
+.navlink_button:hover {
+  text-decoration: none;
+  border-bottom: 1px solid rgb(43, 160, 90);
+  color: rgb(63, 63, 237);
+}
+
+.cart_svg {
+  height: 25px;
+  width: 25px;
+  margin: 2px;
+}
+
+.cart_link {
+  display: flex;
+  height: 35px;
+  flex-wrap: wrap;
+}
+
+.cart_span {
+  display: inline-block;
+  font-size: medium;
+  color: rgb(63, 63, 237);
+}
+
+.button_logout {
+  background-color: none;
+}
+
+.header_cart {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  background-color: rgb(239, 225, 199);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.header_cart:hover {
+  background-color: rgb(146, 203, 244);
+}
+
+.header_notification {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(239, 225, 199);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header_notification:hover {
+  background-color: rgb(146, 203, 244);
+  position: relative;
+}
+
+.header_noticart_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5px;
+  width: 100px;
+}
+
+.notification_svg {
+  margin: 2px;
+  height: 25px;
+  width: 25px;
+}
+
+.header-user-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(239, 225, 199);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.header-user-options:hover {
+  background-color: rgb(146, 203, 244);
+}
+
+.user_svg {
+  margin: 2px;
+  height: 25px;
+  width: 25px;
+}

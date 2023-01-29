@@ -1,0 +1,10 @@
+.customerReview_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars_holder {
+  display: flex;
+}
